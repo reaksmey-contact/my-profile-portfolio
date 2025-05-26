@@ -16,24 +16,24 @@
 /*}*/
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--bg-primary);
-    color: var(--text-primary);
-    line-height: 1.6;
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    line-height: 1.6 !important;
 }
 
 a {
-    color: var(--text-primary);
-    text-decoration: none;
-    transition: var(--transition);
+    color: var(--text-primary) !important;
+    text-decoration: none !important;
+    transition: var(--transition) !important;
 }
 
 a:hover {
-    color: var(--accent);
+    color: var(--accent) !important;
 }
 
 ul {

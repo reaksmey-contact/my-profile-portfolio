@@ -17,17 +17,9 @@ onMounted(() => {
 })
 </script>
 <style lang="scss" >
-@import './assets/profile-1/styles.css';
-@layer base, bootstrap;
-@layer base {
-  @import './assets/profile-1/styles.css';
-}
-@layer bootstrap {
-  @import 'bootstrap/dist/css/bootstrap.min.css';
-  @import 'bootstrap/scss/bootstrap';
-}
+//@import './assets/css-1/profile1.scss';
 
-//@import './assets/profile-1/layer.css';
+//@import './assets/css-1/layer.css';
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 @import 'aos/dist/aos.css';
 </style>
