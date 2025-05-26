@@ -81,27 +81,27 @@ const experiences = [
 const ExpLogo = ref([
   {
     tite: 'Aia',
-    logo:'/src/assets/img/project-logo/aia.png',
+    logo:'/img/project-logo/aia.png',
   },
   {
     tite: 'Active People',
-    logo:'/src/assets/img/project-logo/ap.png',
+    logo:'/img/project-logo/ap.png',
   },
   {
     tite: 'Morea',
-    logo:'/src/assets/img/project-logo/morea.png',
+    logo:'/img/project-logo/morea.png',
   },
   {
     tite: 'discoverLaos',
-    logo:'/src/assets/img/project-logo/discoverLaos.png',
+    logo:'/img/project-logo/discoverLaos.png',
   },
   {
     tite: 'MLMUPC',
-    logo:'/src/assets/img/project-logo/mlmupc.png',
+    logo:'/img/project-logo/mlmupc.png',
   },
   {
     tite: 'EAZY Partner Solution Co.,ltd',
-    logo:'/src/assets/img/project-logo/ez-partner.png',
+    logo:'/img/project-logo/ez-partner.png',
   },
 
 ]);
