@@ -36,7 +36,7 @@
   <Projects></Projects>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import Projects from '@/components/profile-1/Projects.vue'
 import { ref } from 'vue'
 

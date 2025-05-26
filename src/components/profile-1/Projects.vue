@@ -26,7 +26,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const projects = [
   {
     title: 'Field',
