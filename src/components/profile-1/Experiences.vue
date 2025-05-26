@@ -9,7 +9,7 @@
 
       <div class="row gy-4">
         <div class="col-md-12 text-center"> <h4>Project Invole</h4></div>
-        <div class="col-md-4 d-flex justify-content-center" v-for="(exp_logo, exp_logo_index) in ExpLogo" :key="exp_logo.id">
+        <div class="col-md-4 d-flex justify-content-center" v-for="(exp_logo, exp_logo_index) in ExpLogo">
           <img :data-aos="'fade-up'"
                :data-aos-duration="exp_logo_index * 100" width="200" height="200" :src="exp_logo.logo" class="rounded" alt="">
         </div>
@@ -17,7 +17,7 @@
 
     </div>
     <div class="experience-cards">
-      <div data-aos="flip-up"
+      <div data-aos="flip-up"setup lang="ts"
            data-aos-duration="1500" v-for="exp in experiences" :key="exp.title" class="experience-card">
         <div class="company-logo">
           <span>{{ exp.company }}</span>
@@ -36,7 +36,7 @@
   <Projects></Projects>
 </template>
 
-<script setup lang="ts">
+<script >
 import Projects from '@/components/profile-1/Projects.vue'
 import { ref } from 'vue'
 
