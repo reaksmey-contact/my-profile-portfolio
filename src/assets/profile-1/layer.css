@@ -1,0 +1,9 @@
+@layer base, bootstrap;
+
+@layer base {
+    @import "profile1.css";
+}
+
+@layer bootstrap {
+    @import "bootstrap/dist/css/bootstrap.min.css";
+}
