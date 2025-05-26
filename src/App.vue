@@ -9,8 +9,8 @@
 import Header from './components/profile-1/Header.vue';
 import Footer from './components/profile-1/Footer.vue';
 import { onMounted } from 'vue'
-import 'aos/dist/aos.css';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 // Initialize AOS
 onMounted(() => {
   AOS.init()
