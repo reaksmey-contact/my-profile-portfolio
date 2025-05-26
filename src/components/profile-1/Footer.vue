@@ -4,6 +4,6 @@
   </footer>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 // No script logic needed for this component
 </script>
