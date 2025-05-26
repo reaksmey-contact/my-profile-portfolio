@@ -24,9 +24,9 @@ onMounted(() => {
 }
 @layer bootstrap {
   @import 'bootstrap/dist/css/bootstrap.min.css';
-
+  @import 'bootstrap/scss/bootstrap';
 }
-@import 'bootstrap';
+
 //@import './assets/profile-1/layer.css';
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 @import 'aos/dist/aos.css';
