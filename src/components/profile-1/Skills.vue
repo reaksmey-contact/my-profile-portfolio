@@ -23,13 +23,13 @@
 <!--    </div>-->
 <!--  </section>-->
   <div class="container">
-    <div class="row ">
+    <div class="row g-4">
       <div
         v-for="skill_group in groupedSkills"
         :key="skill_group.category"
         class="col-12 col-md-6 mb-4"
       >
-        <div class="card bg-black-skill border-white text-white h-100 p-3">
+        <div class="card bg-black-skill  text-white h-100 p-3">
           <div class="section-header mb-3">
             <h3>{{ skill_group.category }}</h3>
           </div>
@@ -139,7 +139,10 @@ const groupedSkills = [
 }
 .card.bg-black-skill {
   background-color: transparent !important;
-  border: 1px solid #a18383 !important;
+  box-shadow:
+    0 0 20px rgba(248, 246, 246, 0.19),
+    0 0 12px rgba(243, 243, 243, 0.23),
+    0 0 12px rgba(243, 243, 243, 0.23) !important;
 }
 
 </style>
