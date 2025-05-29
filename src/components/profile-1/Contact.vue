@@ -29,7 +29,7 @@
       </div>
 
       <div class="contact-phone">
-        <img data-aos="zoom-in" data-aos-delay="1500" width="200" class="rounded" src="/img/my-img/telegram-qr.png" alt="">
+        <img data-aos="zoom-in" data-aos-delay="1000" width="200" class="rounded" src="/img/my-img/telegram-qr.png" alt="">
       </div>
     </div>
 <!--    <p class="contact-outro">You can also find me on these platforms!</p>-->
