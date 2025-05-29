@@ -29,15 +29,15 @@
       </div>
 
       <div class="contact-phone">
-        <img data-aos="zoom-in" data-aos-delay="1500" width="200" src="/img/my-img/telegram-qr.png" alt="">
+        <img data-aos="zoom-in" data-aos-delay="1500" width="200" class="rounded" src="/img/my-img/telegram-qr.png" alt="">
       </div>
     </div>
-    <p class="contact-outro">You can also find me on these platforms!</p>
-    <div class="social-links-large">
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    </div>
+<!--    <p class="contact-outro">You can also find me on these platforms!</p>-->
+<!--    <div class="social-links-large">-->
+<!--      <a href="#"><i class="fab fa-github"></i></a>-->
+<!--      <a href="#"><i class="fab fa-twitter"></i></a>-->
+<!--      <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
+<!--    </div>-->
   </section>
 </template>
 

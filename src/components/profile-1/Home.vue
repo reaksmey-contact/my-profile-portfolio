@@ -13,9 +13,9 @@
         <span>Available for new recruitment</span>
       </div>
       <div class="social-links mb-4">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+<!--        <a href="#"><i class="fab fa-github"></i></a>-->
+<!--        <a href="#"><i class="fab fa-twitter"></i></a>-->
+<!--        <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
       </div>
       <a to="/contact" @click="downloadCV" class="contact-btn cursor-pointer">Download My CV 📥</a>
     </div>
@@ -34,7 +34,7 @@ const downloadCV = () => {
   link.click();
 };
 // No script logic needed for this component
-const homeDesc = "I'm a Web Developer & Designer with a focus on creating user-friendly, visually engaging, and high-performance web experiences. Merging technical expertise with creative vision, I craft digital solutions that are both functional and aesthetically appealing. With a proven track record of delivering scalable, high-quality web applications, I'm skilled in building innovative features, optimizing performance, and working collaboratively with cross-functional teams. I'm adaptable, deadline-driven, and passionate about solving problems through technology.";
+const homeDesc = "I'm a Full Stack Web Developer & Designer with a focus on creating user-friendly, visually engaging, and high-performance web experiences. Merging technical expertise with creative vision, I craft digital solutions that are both functional and aesthetically appealing. With a proven track record of delivering scalable, high-quality web applications, I'm skilled in building innovative features, optimizing performance, and working collaboratively with cross-functional teams. I'm adaptable, deadline-driven, and passionate about solving problems through technology.";
 const homeDescChars = homeDesc.split('.')
 </script>
 <style scoped>

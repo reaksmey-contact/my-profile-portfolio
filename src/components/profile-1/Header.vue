@@ -21,7 +21,7 @@
         <div><a href="#contact">Contact</a></div>
       </ul>
     </nav>
-    <router-link to="/contact" class="contact-btn">Contact me</router-link>
+    <a href="#contact" class="contact-btn">Contact me</a>
     <div class="hamburger" @click="toggleNav" :class="{ active: isNavActive }">
       <span></span>
       <span></span>
