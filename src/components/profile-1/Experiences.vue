@@ -5,25 +5,20 @@
     </div>
     <p class="experience-intro">Here is a quick summary of my most recent experiences:</p>
 
-    <div class="experience-cards mb-5">
-      <div class="row">
-      <template v-for="exp in experiences" :key="exp.title">
-        <div class="col-md-12 mb-5">
-        <div class="experience-card" data-aos="flip-up" data-aos-duration="1500" >
-          <div class="company-logo d-flex flex-column m-4">
-            <img :src="exp?.logo" />
-            <span>{{ exp.company }}</span>
-          </div>
-          <div class="experience-details p-4">
-            <div class="fs-3">{{ exp.title }}</div>
-            <p class="duration">{{ exp.duration }}</p>
-            <div class="text-start">
-              <div v-for="task in exp.tasks" :key="task">- {{ task }}</div>
-            </div>
+    <div class="project-cards mb-5">
+      <div v-for="(project, index) in experiences" :key="project.title" class="company-project-card">
+        <div data-aos="fade-up" data-aos-duration="2500"  class="d-flex flex-column justify-content-center align-items-center" style="width: 200px;height: 200px;">
+          <img :src="project?.logo" :alt="project.title" class="p-3">
+        </div>
+        <div class="project-details">
+          <h3>{{ project.title }}</h3>
+          <h5>{{ project.company }}</h5>
+          <div class="text-start com-experience-details">
+            <ul>
+              <li v-for="task in project.tasks" :key="task">{{ task }}</li>
+            </ul>
           </div>
         </div>
-        </div>
-      </template>
       </div>
     </div>
 
