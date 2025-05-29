@@ -5,16 +5,15 @@
     </div>
     <p class="experience-intro">Here is a quick summary of my most recent experiences:</p>
 
-
     <div class="experience-cards mb-5">
       <template v-for="exp in experiences" :key="exp.title">
         <div class="experience-card" data-aos="flip-up" data-aos-duration="1500" lang="ts" setup>
-          <div class="company-logo d-flex flex-column">
+          <div class="company-logo d-flex flex-column m-4">
             <img :src="exp?.logo" />
             <span>{{ exp.company }}</span>
           </div>
-          <div class="experience-details">
-            <h3>{{ exp.title }}</h3>
+          <div class="experience-details m-4">
+            <div class="fs-3">{{ exp.title }}</div>
             <p class="duration">{{ exp.duration }}</p>
             <ul>
               <li v-for="task in exp.tasks" :key="task">{{ task }}</li>
@@ -23,14 +22,12 @@
               🌐 <a :href="exp?.website" class="text-warning" target="_blank">{{ exp?.website }}</a>
             </div>
           </div>
-
         </div>
-
       </template>
     </div>
 
-    <div class="experience-card p-5 mb-5">
-      <div class="row gy-5">
+    <div class="experience-card mb-5">
+      <div class="row gy-5 mb-5">
         <div class="col-md-12 text-center"><h4>Project Involve</h4></div>
         <div
           v-for="(exp_logo, exp_logo_index) in ExpLogo"
@@ -56,7 +53,9 @@
 <script lang="ts" setup>
 import Projects from '@/components/profile-1/Projects.vue'
 import { ref } from 'vue'
-const codeClansTask = 'Developed and maintained responsive, high-performance web applications using Laravel, Vue.js, Bootstrap, jQuery, MySQL, JavaScript, HTML5, CSS, and AJAX, with integration of RESTful APIs, authentication systems to enhance functionality and user experience. -\n' +
+
+const codeClansTask =
+  'Developed and maintained responsive, high-performance web applications using Laravel, Vue.js, Bootstrap, jQuery, MySQL, JavaScript, HTML5, CSS, and AJAX, with integration of RESTful APIs, authentication systems to enhance functionality and user experience. -\n' +
   'Developed backend services with NestJS, Sequelize ORM, and TypeORM, creating RESTful and GraphQL APIs with PostgreSQL and MySQL, using Redis for performance  optimization.-\n' +
   'Used Cron jobs and queues to run scheduled tasks and handle background jobs, making the system faster and more efficient.-\n' +
   'Developed and maintained enterprise web applications with C# and ASP.NET.-\n' +
@@ -66,7 +65,7 @@ const codeClansTask = 'Developed and maintained responsive, high-performance web
   'Using Swagger documentation to improve API usability for developers.-\n' +
   'Developed SQL stored procedures and functions to optimize data retrieval for reports, and used database triggers to automate updates, ensuring data accuracy.-\n' +
   'Integrated Mailgun for automated emails and Firebase Cloud Messaging for cross-platform push notifications to boost user engagement.-\n' +
-  'Implemented activity logging to track user actions and improve system monitoring and security.\n';
+  'Implemented activity logging to track user actions and improve system monitoring and security.\n'
 const experiences = [
   {
     company: 'Codeclans',
@@ -74,7 +73,7 @@ const experiences = [
     duration: 'Jan 2023 - Present',
     logo: '/img/project-logo/codeclans.png',
     website: 'https://codeclans.asia/',
-    tasks: codeClansTask.split('-')
+    tasks: codeClansTask.split('-'),
   },
   {
     company: 'Eazy Partner Solution Co.,Ltd',
@@ -89,10 +88,9 @@ const experiences = [
       'Optimized application performance and user experience through data analysis.',
       'Collaborated with UX/UI teams for seamless design integration.',
       'Worked with REST APIs, leveraging hands-on experience.',
-      'Continuously learned and adapted to the latest web development technologies.'
+      'Continuously learned and adapted to the latest web development technologies.',
     ],
   },
-
 ]
 const ExpLogo = ref([
   {
