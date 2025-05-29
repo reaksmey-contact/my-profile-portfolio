@@ -593,9 +593,12 @@ footer {
     header {
         padding: 1rem;
     }
-
-    nav {
+    nav{
+        display:none;
+    }
+    nav.active {
         position: fixed;
+        display:block;
         top: 0;
         right: -100%;
         width: 70%;

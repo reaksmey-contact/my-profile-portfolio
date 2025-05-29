@@ -3,7 +3,6 @@
   <About></About>
   <Skills></Skills>
   <Experiences></Experiences>
-<!--  <Testimonials></Testimonials>-->
   <Contact></Contact>
 </template>
 <script setup lang="ts">
