@@ -281,7 +281,7 @@ nav ul {
 .skill {
     display: flex;
     flex-direction: column;
-    align-items: c;
+    align-items: center;
     justify-content: center;
     gap: 0.5rem;
 }

@@ -8,7 +8,7 @@
         <img class="img-shadow-left-bottom" src="/src/assets/img/my-img/me-2.png" alt="Casual photo">
       </div>
       <div data-aos="flip-right" class="about-text">
-        <p>I am a Full Stack Developer with over 5 years of experience building reliable web applications. I started learning about websites out of curiosity, and it grew into a passion for coding.
+        <p>I am a Full Stack Developer with over 4 years of experience building reliable web applications. I started learning about websites out of curiosity, and it grew into a passion for coding.
 
           When I’m not coding, I enjoy hiking, trying new recipes, and reading books. I believe that different experiences help me think creatively and solve problems better.
 

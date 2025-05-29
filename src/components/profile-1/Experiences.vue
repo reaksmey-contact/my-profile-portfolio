@@ -56,7 +56,17 @@
 <script lang="ts" setup>
 import Projects from '@/components/profile-1/Projects.vue'
 import { ref } from 'vue'
-
+const codeClansTask = 'Developed and maintained responsive, high-performance web applications using Laravel, Vue.js, Bootstrap, jQuery, MySQL, JavaScript, HTML5, CSS, and AJAX, with integration of RESTful APIs, authentication systems to enhance functionality and user experience. -\n' +
+  'Developed backend services with NestJS, Sequelize ORM, and TypeORM, creating RESTful and GraphQL APIs with PostgreSQL and MySQL, using Redis for performance  optimization.-\n' +
+  'Used Cron jobs and queues to run scheduled tasks and handle background jobs, making the system faster and more efficient.-\n' +
+  'Developed and maintained enterprise web applications with C# and ASP.NET.-\n' +
+  'Implemented JWT authentication and role-based access control (RBAC) for security.-\n' +
+  'Utilized Docker for streamlined application setup and deployment.-\n' +
+  'Managed source code using Git, GitHub, and GitLab, integrating CI/CD.- \n' +
+  'Using Swagger documentation to improve API usability for developers.-\n' +
+  'Developed SQL stored procedures and functions to optimize data retrieval for reports, and used database triggers to automate updates, ensuring data accuracy.-\n' +
+  'Integrated Mailgun for automated emails and Firebase Cloud Messaging for cross-platform push notifications to boost user engagement.-\n' +
+  'Implemented activity logging to track user actions and improve system monitoring and security.\n';
 const experiences = [
   {
     company: 'Codeclans',
@@ -64,20 +74,7 @@ const experiences = [
     duration: 'Jan 2023 - Present',
     logo: '/img/project-logo/codeclans.png',
     website: 'https://codeclans.asia/',
-    tasks: [
-      'Developed and maintained responsive web applications using Laravel, Vue.js, and Bootstrap.',
-      'Implemented RESTful & GraphQL APIs with NestJS, .NET Core 6, and PostgreSQL/MySQL.',
-      'Designed and optimized databases for efficient data management.',
-      'Built NestJS backend services with Sequelize ORM and caching strategies using Redis.',
-      'Integrated JWT authentication and role-based access control (RBAC) for security.',
-      'Utilized Docker for containerized deployments and streamlined development workflows.',
-      'Developed and optimized Vue 3 applications using Pinia, Composition API, and lazy loading.',
-      'Improved frontend performance, SEO, and accessibility.',
-      'Integrated Git, GitHub, and GitLab for version control and CI/CD workflows.',
-      'Developed a property management system for leasing, sales, and operations.',
-      'Developed a web application for the Ministry of Land Management, Urban Planning and Construction (MLMUPC) using C#.NET for the backend and Vue.js for the frontend.',
-      'Developed a web application for AIA Insurance using C#.NET.',
-    ],
+    tasks: codeClansTask.split('-')
   },
   {
     company: 'Eazy Partner Solution Co.,Ltd',
