@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="projects">
     <div class="section-header">
-      <h2>Projects</h2>
+      <h2>Experience Projects</h2>
     </div>
     <p class="projects-intro">Some of my noteworthy projects I have built:</p>
     <div class="project-cards">
@@ -27,6 +27,8 @@
 </template>
 
 <script setup lang="ts">
+import Experiences from '@/components/profile-1/Experiences.vue'
+
 const projects = [
   {
     title: 'Morea',
