@@ -6,41 +6,42 @@
     <p class="experience-intro">Here is a quick summary of my most recent experiences:</p>
 
     <div class="experience-cards mb-5">
+      <div class="row">
+
+
       <template v-for="exp in experiences" :key="exp.title">
+        <div class="col-md-12 mb-5">
         <div class="experience-card" data-aos="flip-up" data-aos-duration="1500" lang="ts" setup>
           <div class="company-logo d-flex flex-column m-4">
             <img :src="exp?.logo" />
             <span>{{ exp.company }}</span>
           </div>
-          <div class="experience-details m-4">
+          <div class="experience-details p-4">
             <div class="fs-3">{{ exp.title }}</div>
             <p class="duration">{{ exp.duration }}</p>
-            <ul>
-              <li v-for="task in exp.tasks" :key="task">{{ task }}</li>
-            </ul>
-            <div class="text-warning">
-              🌐 <a :href="exp?.website" class="text-warning" target="_blank">{{ exp?.website }}</a>
+            <div class="text-start">
+            <p   v-for="task in exp.tasks" :key="task">- {{ task }}</p>
             </div>
           </div>
         </div>
+        </div>
       </template>
+      </div>
     </div>
 
     <div class="experience-card mb-5">
-      <div class="row gy-5 mb-5">
+      <div class="row gy-5 mb-5 mt-3">
         <div class="col-md-12 text-center"><h4>Project Involve</h4></div>
         <div
           v-for="(exp_logo, exp_logo_index) in ExpLogo"
-          class="col-md-4 d-flex justify-content-center"
+          class="col-md-4 col-sm-6 col-6 d-flex justify-content-center"
         >
           <img
             :data-aos="'fade-up'"
             :data-aos-duration="exp_logo_index * 100"
             :src="exp_logo.logo"
             alt=""
-            class="rounded"
-            height="200"
-            width="200"
+            class="rounded img-project-invole"
           />
         </div>
       </div>

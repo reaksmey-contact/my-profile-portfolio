@@ -1,9 +1,9 @@
 <template>
-<!--  <Home></Home>-->
-<!--  <About></About>-->
-<!--  <Skills></Skills>-->
+  <Home></Home>
+  <About></About>
+  <Skills></Skills>
   <Experiences></Experiences>
-<!--  <Contact></Contact>-->
+  <Contact></Contact>
 </template>
 <script setup lang="ts">
 import Home from '@/components/profile-1/Home.vue'
