@@ -17,7 +17,7 @@
 <!--        <a href="#"><i class="fab fa-twitter"></i></a>-->
 <!--        <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
       </div>
-      <a to="/contact" @click="downloadCV" class="contact-btn cursor-pointer">Download My CV 📥</a>
+<!--      <a to="/contact" @click="downloadCV" class="contact-btn cursor-pointer">Download My CV 📥</a>-->
     </div>
 
     <div data-aos="fade-left" data-aos-duration="2500" class="hero-image">
