@@ -333,8 +333,8 @@ nav ul {
 }
 
 .experience-details {
-    flex: 1;
-    align-items: start;
+    /*flex: 1;*/
+    /*align-items: start;*/
 }
 
 .experience-details h3 {
@@ -652,6 +652,12 @@ footer {
     .img-project-invole{
         height: 100px;
         width: 100px;
+    }
+    .img-shadow-right-bottom{
+        width: 200px;
+    }
+    .hero-image{
+        flex: unset !important;
     }
 }
 

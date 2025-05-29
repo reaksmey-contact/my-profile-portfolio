@@ -7,11 +7,9 @@
 
     <div class="experience-cards mb-5">
       <div class="row">
-
-
       <template v-for="exp in experiences" :key="exp.title">
         <div class="col-md-12 mb-5">
-        <div class="experience-card" data-aos="flip-up" data-aos-duration="1500" lang="ts" setup>
+        <div class="experience-card" data-aos="flip-up" data-aos-duration="1500" >
           <div class="company-logo d-flex flex-column m-4">
             <img :src="exp?.logo" />
             <span>{{ exp.company }}</span>
@@ -20,7 +18,7 @@
             <div class="fs-3">{{ exp.title }}</div>
             <p class="duration">{{ exp.duration }}</p>
             <div class="text-start">
-            <p   v-for="task in exp.tasks" :key="task">- {{ task }}</p>
+              <div v-for="task in exp.tasks" :key="task">- {{ task }}</div>
             </div>
           </div>
         </div>
@@ -48,7 +46,7 @@
     </div>
   </section>
 
-  <Projects></Projects>
+
 </template>
 
 <script lang="ts" setup>
