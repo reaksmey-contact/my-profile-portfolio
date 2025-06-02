@@ -32,6 +32,10 @@ const routes = [
     children: [
       { path: 'samphors-profile', component: SProfile }
     ]
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/'
   }
 ]
 
