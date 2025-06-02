@@ -10,20 +10,20 @@ import Profile1 from '../components/profile-1/Profile1.vue'
 import SProfile from '../components/samphors/SProfile.vue'
 
 
+// { path: 'me', component: Profile1 },
+// { path: '/home', component: Home },
+// { path: '/about', component: About },
+// { path: '/skills', component: Skills },
+// { path: '/experience', component: Experiences },
+// { path: '/projects', component: Projects },
+// { path: '/testimonials', component: Testimonials },
+// { path: '/contact', component: Contact },
 
 const routes = [
   { path: '/', redirect: '/me' },
   {
     path: '/me', component: Profile1,
     children: [
-      { path: 'me', component: Profile1 },
-      { path: '/home', component: Home },
-      { path: '/about', component: About },
-      { path: '/skills', component: Skills },
-      { path: '/experience', component: Experiences },
-      { path: '/projects', component: Projects },
-      { path: '/testimonials', component: Testimonials },
-      { path: '/contact', component: Contact },
     ]
   },
   {
