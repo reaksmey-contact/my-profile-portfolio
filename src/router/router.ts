@@ -10,6 +10,7 @@ import Profile1 from '../components/profile-1/Profile1.vue'
 import SProfile from '../components/samphors/SProfile.vue'
 
 
+
 const routes = [
   { path: '/', redirect: '/me' },
   {
