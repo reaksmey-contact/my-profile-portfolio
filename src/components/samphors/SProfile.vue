@@ -403,18 +403,13 @@ const columns = ref<Column[]>([
 
 /* Hero Section */
 .landing-page .hero {
-  //background-image: url("/samphors/bg/top-bg.png");
   color: white;
-  //padding: 4rem 0;
   min-height: 500px !important;
 }
 
 .landing-page .hero__container {
   max-width: 1200px;
   margin: 0 auto;
-  //padding: 0 1.5rem;
-  //height: 600px !important;
-
 }
 
 .landing-page .hero__content {
