@@ -7,17 +7,31 @@ import Projects from '../components/profile-1/Projects.vue'
 import Testimonials from '../components/profile-1/Testimonials.vue'
 import Contact from '../components/profile-1/Contact.vue'
 import Profile1 from '../components/profile-1/Profile1.vue'
+import SProfile from '../components/samphors/SProfile.vue'
 
 
 const routes = [
-  { path: '/', component: Profile1 },
-  { path: '/home', component: Home },
-  { path: '/about', component: About },
-  { path: '/skills', component: Skills },
-  { path: '/experience', component: Experiences },
-  { path: '/projects', component: Projects },
-  { path: '/testimonials', component: Testimonials },
-  { path: '/contact', component: Contact }
+  { path: '/', redirect: '/me' },
+  {
+    path: '/me', component: Profile1,
+    children: [
+      { path: 'me', component: Profile1 },
+      { path: '/home', component: Home },
+      { path: '/about', component: About },
+      { path: '/skills', component: Skills },
+      { path: '/experience', component: Experiences },
+      { path: '/projects', component: Projects },
+      { path: '/testimonials', component: Testimonials },
+      { path: '/contact', component: Contact },
+    ]
+  },
+  {
+    path: '/samphors',
+    redirect: '/samphors/samphors-profile',
+    children: [
+      { path: 'samphors-profile', component: SProfile }
+    ]
+  }
 ]
 
 const router = createRouter({
