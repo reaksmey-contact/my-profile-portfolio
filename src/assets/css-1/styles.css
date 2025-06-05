@@ -20,7 +20,8 @@ html {
 }
 
 body {
-    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family: "Courier Prime", monospace !important;
     background-color: var(--bg-primary) !important;
     color: var(--text-primary) !important;
     line-height: 1.6 !important;

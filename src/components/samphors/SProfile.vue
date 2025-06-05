@@ -33,8 +33,9 @@
         </h2>
         <button class="statement__button">Get Started</button>
       </div>
-    </section>
 
+    </section>
+    <div class="container"> <Test1></Test1></div>
     <!-- Grid Section -->
     <section class="grid-section">
       <div class="grid-section__container">
@@ -109,7 +110,9 @@
             </ul>
             <button class="dark-section__button">Learn More</button>
           </div>
-          <div class="dark-section__image"></div>
+          <div class="">
+            <Test1></Test1>
+          </div>
         </div>
       </div>
     </section>
@@ -193,6 +196,7 @@
 import { ref } from 'vue'
 import SHeader from '@/components/samphors/SHeader.vue'
 import SHome from '@/components/samphors/SHome.vue'
+import Test1 from '@/components/samphors/Test1.vue'
 
 interface GridItem {
   id: number

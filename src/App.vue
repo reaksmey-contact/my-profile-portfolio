@@ -2,8 +2,10 @@
   <div id="app">
     <router-view />
   </div>
+  <ScrollTop />
 </template>
 <script lang="ts" setup>
+import ScrollTop from 'primevue/scrolltop';
 import { onMounted } from 'vue'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
