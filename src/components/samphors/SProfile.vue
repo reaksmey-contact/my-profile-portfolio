@@ -3,10 +3,12 @@
 <!--     Header -->
    <SHeader></SHeader>
     <SHome></SHome>
+    <SSkills></SSkills>
     <SExperience></SExperience>
 
+
     <!-- Content Section -->
-    <section class="content">
+    <section class="content mb-5">
       <div class="content__container">
         <div class="content__wrapper">
           <h2 class="content__title">Lorem ipsum its TEX</h2>
@@ -24,130 +26,6 @@
       </div>
     </section>
 
-    <!-- Statement Section -->
-    <section class="statement">
-      <div class="statement__container">
-
-        <h2 class="statement__title">
-          Contrary To Popular Belief Is Contrary To Popular Belief
-        </h2>
-        <button class="statement__button">Get Started</button>
-      </div>
-
-    </section>
-    <div class="container"> <Test1></Test1></div>
-    <!-- Grid Section -->
-    <section class="grid-section">
-      <div class="grid-section__container">
-        <h2 class="grid-section__title">There are</h2>
-        <div class="grid-section__grid">
-          <div v-for="item in gridItems" :key="item.id" class="grid-item">
-            <div class="grid-item__image"></div>
-            <h3 class="grid-item__title">{{ item.title }}</h3>
-            <p class="grid-item__description">{{ item.description }}</p>
-            <span class="grid-item__number">{{ item.number }}</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Two Column Section -->
-    <section class="two-column">
-      <div class="two-column__container">
-        <div class="two-column__content">
-          <div class="two-column__text">
-            <h2 class="two-column__title">Consequences Branditis</h2>
-            <p class="two-column__description">
-              But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.
-            </p>
-            <button class="two-column__button">Read More</button>
-          </div>
-          <div class="two-column__images">
-            <div class="two-column__image"></div>
-            <div class="two-column__image"></div>
-            <div class="two-column__image"></div>
-            <div class="two-column__image"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Another Grid Section -->
-    <section class="another-grid">
-      <div class="another-grid__container">
-        <div class="another-grid__content">
-          <div class="another-grid__images">
-            <div class="another-grid__image"></div>
-            <div class="another-grid__image"></div>
-            <div class="another-grid__image"></div>
-            <div class="another-grid__image"></div>
-          </div>
-          <div class="another-grid__text">
-            <h2 class="another-grid__title">Of Denouncin Most</h2>
-            <p class="another-grid__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <button class="another-grid__button">Read More</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Dark Section -->
-    <section class="dark-section">
-      <div class="dark-section__container">
-        <div class="dark-section__content">
-          <div class="dark-section__text">
-            <h2 class="dark-section__title">It Has Survived Not Only five Is A</h2>
-            <p class="dark-section__description">
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-            </p>
-            <ul class="dark-section__list">
-              <li v-for="feature in features" :key="feature" class="dark-section__list-item">
-                <span class="dark-section__bullet"></span>
-                {{ feature }}
-              </li>
-            </ul>
-            <button class="dark-section__button">Learn More</button>
-          </div>
-          <div class="">
-            <Test1></Test1>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="faq">
-      <div class="faq__container">
-        <h2 class="faq__title">Sometimes By Accident, So</h2>
-        <div class="faq__list">
-          <div v-for="(faq, index) in faqs" :key="index" class="faq__item">
-            <h3 class="faq__question">{{ index + 1 }}. {{ faq.question }}</h3>
-            <p class="faq__answer">{{ faq.answer }}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Three Column Section -->
-    <section class="three-column">
-      <div class="three-column__container">
-        <h2 class="three-column__main-title">
-          Minima Veniam, our But It Must Explain To You
-        </h2>
-        <h3 class="three-column__subtitle">Lorem Ipsum Do</h3>
-        <div class="three-column__grid">
-          <div v-for="column in columns" :key="column.id" class="three-column__item">
-            <h4 class="three-column__item-title">{{ column.title }}</h4>
-            <p class="three-column__item-content">{{ column.content }}</p>
-          </div>
-        </div>
-        <div class="three-column__button-wrapper">
-          <button class="three-column__button">Get Info</button>
-        </div>
-      </div>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -198,6 +76,7 @@ import SHeader from '@/components/samphors/SHeader.vue'
 import SHome from '@/components/samphors/SHome.vue'
 import Test1 from '@/components/samphors/Test1.vue'
 import SExperience from '@/components/samphors/SExperience.vue'
+import SSkills from '@/components/samphors/SSkills.vue'
 
 interface GridItem {
   id: number

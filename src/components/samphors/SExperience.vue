@@ -12,7 +12,7 @@
       >
         <!-- Dot -->
         <span   data-aos="fade-up" :data-aos-delay="index * 100"
-               data-aos-duration="800" class="fw-bold position-absolute fs-5" style="top: -3%; left: 2%">
+               data-aos-duration="1000" class="fw-bold position-absolute fs-5" style="top: -3%; left: 2%">
           {{ item.startDate }} – {{ item.endDate }}
         </span>
         <div class="timeline-dot position-absolute top-0 start-0 translate-middle bg-dark"></div>

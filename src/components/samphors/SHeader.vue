@@ -46,7 +46,7 @@ watch(route, () => {
   isNavActive.value = false
 })
 </script>
-<style>
+<style scoped>
 .section-header{
   background-color: #1a685f;
   font-weight: bold;
