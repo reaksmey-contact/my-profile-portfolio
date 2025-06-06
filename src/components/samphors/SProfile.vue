@@ -1,11 +1,10 @@
 <template>
   <div class="landing-page">
-<!--     Header -->
-   <SHeader></SHeader>
+    <!--     Header -->
+    <SHeader></SHeader>
     <SHome></SHome>
     <SSkills></SSkills>
     <SExperience></SExperience>
-
 
     <!-- Content Section -->
     <section class="content mb-5">
@@ -13,19 +12,24 @@
         <div class="content__wrapper">
           <h2 class="content__title">Lorem ipsum its TEX</h2>
           <p class="content__paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <p class="content__paragraph">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
           </p>
           <p class="content__paragraph">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+            architecto beatae vitae dicta sunt explicabo.
           </p>
           <button class="content__button">Read More</button>
         </div>
       </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="footer">
@@ -35,7 +39,7 @@
           <div class="footer__item">
             <div class="footer__icon">
               <svg class="footer__icon-svg" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
               </svg>
             </div>
             <h3 class="footer__item-title">Send Message</h3>
@@ -44,7 +48,9 @@
           <div class="footer__item">
             <div class="footer__icon">
               <svg class="footer__icon-svg" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                <path
+                  d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                />
               </svg>
             </div>
             <h3 class="footer__item-title">Call Us</h3>
@@ -53,7 +59,9 @@
           <div class="footer__item">
             <div class="footer__icon">
               <svg class="footer__icon-svg" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                />
               </svg>
             </div>
             <h3 class="footer__item-title">Visit Office</h3>
@@ -74,7 +82,6 @@
 import { ref } from 'vue'
 import SHeader from '@/components/samphors/SHeader.vue'
 import SHome from '@/components/samphors/SHome.vue'
-import Test1 from '@/components/samphors/Test1.vue'
 import SExperience from '@/components/samphors/SExperience.vue'
 import SSkills from '@/components/samphors/SSkills.vue'
 
@@ -101,38 +108,38 @@ const gridItems = ref<GridItem[]>([
     id: 1,
     title: 'Not Simply Do',
     description: 'why we call them',
-    number: '01'
+    number: '01',
   },
   {
     id: 2,
     title: 'Not Simply Do',
     description: 'why we call them',
-    number: '02'
+    number: '02',
   },
   {
     id: 3,
     title: 'Not Simply Do',
     description: 'why we call them',
-    number: '03'
+    number: '03',
   },
   {
     id: 4,
     title: 'Not Simply Do',
     description: 'why we call them',
-    number: '04'
+    number: '04',
   },
   {
     id: 5,
     title: 'Not Simply Do',
     description: 'why we call them',
-    number: '05'
+    number: '05',
   },
   {
     id: 6,
     title: 'Not Simply Do',
     description: 'why we call them',
-    number: '06'
-  }
+    number: '06',
+  },
 ])
 
 const features = ref<string[]>([
@@ -145,63 +152,74 @@ const features = ref<string[]>([
   'Quis nostrud exercitation',
   'Ullamco laboris nisi',
   'Ut aliquip ex ea commodo',
-  'Consequat duis aute irure'
+  'Consequat duis aute irure',
 ])
 
 const faqs = ref<FAQ[]>([
   {
     question: 'Lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    answer:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   },
   {
     question: 'Lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum',
-    answer: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    answer:
+      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     question: 'Lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum',
-    answer: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
+    answer:
+      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
   },
   {
     question: 'Lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum',
-    answer: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.'
+    answer:
+      'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.',
   },
   {
     question: 'Lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum',
-    answer: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'
-  }
+    answer:
+      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+  },
 ])
 
 const columns = ref<Column[]>([
   {
     id: 1,
     title: 'Lorem Ipsum Dolor Sit Amet',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
   },
   {
     id: 2,
     title: 'Lorem Ipsum Dolor Sit Amet',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
   },
   {
     id: 3,
     title: 'Lorem Ipsum Dolor Sit Amet',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
   },
   {
     id: 4,
     title: 'Lorem Ipsum Dolor Sit Amet',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
   },
   {
     id: 5,
     title: 'Lorem Ipsum Dolor Sit Amet',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
   },
   {
     id: 6,
     title: 'Lorem Ipsum Dolor Sit Amet',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
-  }
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+  },
 ])
 </script>
 
@@ -213,19 +231,19 @@ const columns = ref<Column[]>([
   min-height: 100vh;
   background-color: #ffffff;
   font-weight: 400;
-  font-family: "Titillium Web", monospace;
+  font-family: 'Titillium Web', monospace;
   line-height: 1.6;
   color: #333;
 }
-.p-button.p-scrolltop{
+.p-button.p-scrolltop {
   background-color: white !important;
   border-color: #1c6960 !important;
   border-width: 2px !important;
 }
 .blurred-bg {
   background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
-  backdrop-filter: blur(10px);          /* Blur effect */
-  -webkit-backdrop-filter: blur(10px);  /* Safari support */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
   border-radius: 15px;
   padding: 2rem;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -942,5 +960,4 @@ const columns = ref<Column[]>([
     font-size: 1.5rem;
   }
 }
-
 </style>

@@ -29,7 +29,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
 
 // Sample data for Accounting and Tax skills
@@ -108,5 +108,4 @@ const skills = ref([
 </script>
 
 <style scoped>
-/* Additional custom styles if needed */
 </style>
