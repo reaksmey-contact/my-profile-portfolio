@@ -19,9 +19,5 @@ onMounted(() => {
 @import 'aos/dist/aos.css';
 
 
-.p-button.p-scrolltop{
-  background-color: white !important;
-  border-color: #f8ff33 !important;
-  border-width: 2px !important;
-}
+
 </style>

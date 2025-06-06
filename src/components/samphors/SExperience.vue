@@ -133,6 +133,25 @@ const experienceList = ref<Experience[]>([
       'Maintained tax filing records and cash flow reports',
     ],
   },
+  {
+    title: 'Accounting Assistant',
+    company: 'XYZ Enterprises',
+    logo: 'https://static.vecteezy.com/system/resources/previews/023/654/784/non_2x/golden-logo-template-free-png.png',
+    url: 'https://www.xyzcorp.com',
+    startDate: 'Mar 2017',
+    endDate: 'Dec 2019',
+    details: [
+      'Assisted in audit documentation and regulatory compliance',
+      'Processed accounts payable and receivable',
+      'Supported internal reporting and variance analysis',
+      'Supported internal reporting and variance analysis',
+      'Supported internal reporting and variance analysis',
+      'Supported internal reporting and variance analysis',
+      'Supported internal reporting and variance analysis',
+      'Supported internal reporting and variance analysis',
+      'Maintained tax filing records and cash flow reports',
+    ],
+  },
 ])
 
 function isLast(index: number) {

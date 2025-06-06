@@ -217,7 +217,11 @@ const columns = ref<Column[]>([
   line-height: 1.6;
   color: #333;
 }
-
+.p-button.p-scrolltop{
+  background-color: white !important;
+  border-color: #1c6960 !important;
+  border-width: 2px !important;
+}
 .blurred-bg {
   background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
   backdrop-filter: blur(10px);          /* Blur effect */
@@ -845,7 +849,7 @@ const columns = ref<Column[]>([
 
 /* Footer */
 .landing-page .footer {
-  background-color: #1e293b;
+  background-color: #1c6960;
   color: white;
   padding: 4rem 0;
 }

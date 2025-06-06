@@ -1,7 +1,7 @@
 <template>
   <div class="container  mb-5 mt-5">
     <div class="text-center">
-      <h2 class="mb-4 text-dark fw-bold">Skills</h2>
+      <h2 class="mb-5  text-dark fw-bold">Skills</h2>
     </div>
     <div class="row">
       <div
