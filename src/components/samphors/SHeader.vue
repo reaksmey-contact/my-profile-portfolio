@@ -1,7 +1,7 @@
 <template>
-  <header>
-    <div class="logo">
-
+  <header class="section-header" style="padding: 0.5rem !important;">
+    <div class="logo fw-bold ps-5 fs-3 text-white">
+      SAMPHORS
     </div>
     <nav :class="{ active: isNavActive }">
       <ul>
@@ -46,3 +46,12 @@ watch(route, () => {
   isNavActive.value = false
 })
 </script>
+<style>
+.section-header{
+  background-color: #1a685f;
+  font-weight: bold;
+}
+.section-header ul{
+ margin: 0;
+}
+</style>

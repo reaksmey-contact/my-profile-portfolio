@@ -2,9 +2,8 @@
   <div class="landing-page">
 <!--     Header -->
    <SHeader></SHeader>
-
-    <!-- Hero Section -->
     <SHome></SHome>
+    <SExperience></SExperience>
 
     <!-- Content Section -->
     <section class="content">
@@ -28,6 +27,7 @@
     <!-- Statement Section -->
     <section class="statement">
       <div class="statement__container">
+
         <h2 class="statement__title">
           Contrary To Popular Belief Is Contrary To Popular Belief
         </h2>
@@ -197,6 +197,7 @@ import { ref } from 'vue'
 import SHeader from '@/components/samphors/SHeader.vue'
 import SHome from '@/components/samphors/SHome.vue'
 import Test1 from '@/components/samphors/Test1.vue'
+import SExperience from '@/components/samphors/SExperience.vue'
 
 interface GridItem {
   id: number
@@ -327,15 +328,17 @@ const columns = ref<Column[]>([
 
 <style>
 /* Landing Page Styles - Scoped under .landing-page */
-
 /* Reset and Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dosis:wght@200..800&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 .landing-page {
   min-height: 100vh;
   background-color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  font-family: "Titillium Web", monospace;
   line-height: 1.6;
   color: #333;
 }
+
 .blurred-bg {
   background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
   backdrop-filter: blur(10px);          /* Blur effect */

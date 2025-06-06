@@ -20,8 +20,8 @@ html {
 }
 
 body {
-    /*font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    font-family: "Courier Prime", monospace !important;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    /*font-family: "Courier Prime", monospace !important;*/
     background-color: var(--bg-primary) !important;
     color: var(--text-primary) !important;
     line-height: 1.6 !important;
@@ -242,7 +242,6 @@ nav ul {
 
 .about-text p {
     margin-bottom: 1rem;
-    color: var(--text-secondary);
 }
 
 .about-text a {
@@ -350,7 +349,7 @@ nav ul {
 
 .com-experience-details ul {
     list-style: disc;
-    color: var(--text-secondary);
+    /*color: var(--text-secondary);*/
 }
 
 .experience-details li {
@@ -428,7 +427,7 @@ nav ul {
 }
 
 .project-details p {
-    color: var(--text-secondary);
+    /*color: var(--text-secondary);*/
     margin-bottom: 1.5rem;
 }
 
