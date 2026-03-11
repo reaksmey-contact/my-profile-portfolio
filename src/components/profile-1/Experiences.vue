@@ -6,13 +6,22 @@
     <p class="experience-intro">Here is a quick summary of my most recent experiences:</p>
 
     <div class="project-cards mb-5">
-      <div v-for="(project, index) in experiences" :key="project.title" class="company-project-card">
-        <div data-aos="fade-up" data-aos-duration="2500"  class="d-flex flex-column justify-content-center align-items-center" style="width: 200px;height: 200px;">
-          <img :src="project?.logo" :alt="project.title" class="p-3">
+      <div
+        v-for="(project, index) in experiences"
+        :key="project.title"
+        class="company-project-card"
+      >
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2500"
+          class="d-flex flex-column justify-content-center align-items-center"
+          style="width: 200px; height: 200px"
+        >
+          <img :src="project?.logo" :alt="project.title" class="p-3" />
         </div>
         <div class="project-details">
           <h3>{{ project.title }}</h3>
-          <h5>{{ project.company }}</h5>
+          <h5>{{ project.company }}  , {{project.duration}}</h5>
           <div class="text-start com-experience-details">
             <ul>
               <li v-for="task in project.tasks" :key="task">{{ task }}</li>
@@ -40,8 +49,6 @@
       </div>
     </div>
   </section>
-
-
 </template>
 
 <script lang="ts" setup>
@@ -60,11 +67,23 @@ const codeClansTask =
   'Developed SQL stored procedures and functions to optimize data retrieval for reports, and used database triggers to automate updates, ensuring data accuracy.-\n' +
   'Integrated Mailgun for automated emails and Firebase Cloud Messaging for cross-platform push notifications to boost user engagement.-\n' +
   'Implemented activity logging to track user actions and improve system monitoring and security.\n'
+
 const experiences = [
+  {
+    company: 'Aibodia',
+    title: 'Web developer',
+    duration: 'July 2025 - Present',
+    logo: 'https://media.licdn.com/dms/image/v2/D560BAQFPv00NMERH-g/company-logo_200_200/company-logo_200_200/0/1726214406081/meta_11_logo?e=2147483647&v=beta&t=dVXeHuMS6y7lNla2WFECdzbJZ4qEmGbwUkjDDXdCRKM',
+    website: 'https://aibodia.com',
+    tasks:[
+      'Full-Stack Development - Delivered a messaging and live streaming platform as the core product; built a full-stack management system using Nuxt.js for data, user administration, and role management.\n',
+      'Backend & Real-Time backend services with NestJS and Golang; designed and documented RESTful APIs.\n',
+      'Streaming & Communication- Integrated Agora for low-latency live streaming, GetStream for feature-rich real-time chat, and Socket.IO for bidirectional event-driven communication across high-concurrency sessions.']
+  },
   {
     company: 'Codeclans',
     title: 'Web developer',
-    duration: 'Jan 2023 - Present',
+    duration: 'Jan 2023 - Jun 2025',
     logo: '/img/project-logo/codeclans.png',
     website: 'https://codeclans.asia/',
     tasks: codeClansTask.split('-'),
