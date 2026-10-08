@@ -96,9 +96,3 @@ const projects = [
   }
 ]
 </script>
-
-<style scoped>
-.project-card.reverse {
-  flex-direction: row-reverse;
-}
-</style>

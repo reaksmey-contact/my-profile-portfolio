@@ -14,11 +14,11 @@
 
 
 <!--        <div><a href="#me">Me</a></div>-->
-        <div><a href="#home">Home</a></div>
-        <div><a href="#about">About</a></div>
-        <div><a href="#skills">Skills & Technologies</a></div>
-        <div><a href="#experience">Experience</a></div>
-        <div><a href="#contact">Contact</a></div>
+        <div><a href="#home" @click="isNavActive = false">Home</a></div>
+        <div><a href="#about" @click="isNavActive = false">About</a></div>
+        <div><a href="#skills" @click="isNavActive = false">Skills & Technologies</a></div>
+        <div><a href="#experience" @click="isNavActive = false">Experience</a></div>
+        <div><a href="#contact" @click="isNavActive = false">Contact</a></div>
       </ul>
     </nav>
     <div class="header-actions">
@@ -95,5 +95,11 @@ watch(route, () => {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .header-actions .contact-btn {
+    display: none;
+  }
 }
 </style>

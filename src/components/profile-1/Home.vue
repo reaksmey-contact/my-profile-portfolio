@@ -15,7 +15,7 @@
         <span class="dot"></span>
         <span>Available for new recruitment</span>
       </div>
-      <div class="social-links mb-4">
+    <div class="social-links mb-4">
 <!--        <a href="#"><i class="fab fa-github"></i></a>-->
 <!--        <a href="#"><i class="fab fa-twitter"></i></a>-->
 <!--        <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
