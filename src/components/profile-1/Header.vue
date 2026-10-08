@@ -3,24 +3,27 @@
     <div class="logo">
 
     </div>
-    <nav :class="{ active: isNavActive }">
+    <nav class="desktop-nav">
       <ul>
-<!--        <li><router-link to="/">Me</router-link></li>-->
-<!--        <li><router-link to="/home">Home</router-link></li>-->
-<!--        <li><router-link to="/about">About</router-link></li>-->
-<!--        <li><router-link to="/skills">Skills</router-link></li>-->
-<!--        <li><router-link to="/experience">Experience</router-link></li>-->
-<!--        <li><router-link to="/contact">Contact</router-link></li>-->
-
-
-<!--        <div><a href="#me">Me</a></div>-->
-        <div><a href="#home" @click="isNavActive = false">Home</a></div>
-        <div><a href="#about" @click="isNavActive = false">About</a></div>
-        <div><a href="#skills" @click="isNavActive = false">Skills & Technologies</a></div>
-        <div><a href="#experience" @click="isNavActive = false">Experience</a></div>
-        <div><a href="#contact" @click="isNavActive = false">Contact</a></div>
+        <div><a href="#home">Home</a></div>
+        <div><a href="#about">About</a></div>
+        <div><a href="#skills">Skills & Technologies</a></div>
+        <div><a href="#experience">Experience</a></div>
+        <div><a href="#contact">Contact</a></div>
       </ul>
     </nav>
+
+    <Teleport to="body">
+      <nav :class="{ active: isNavActive }" class="mobile-nav">
+        <ul>
+          <div><a href="#home" @click="isNavActive = false">Home</a></div>
+          <div><a href="#about" @click="isNavActive = false">About</a></div>
+          <div><a href="#skills" @click="isNavActive = false">Skills & Technologies</a></div>
+          <div><a href="#experience" @click="isNavActive = false">Experience</a></div>
+          <div><a href="#contact" @click="isNavActive = false">Contact</a></div>
+        </ul>
+      </nav>
+    </Teleport>
     <div class="header-actions">
       <button @click="toggleTheme" class="theme-toggle" aria-label="Toggle Dark Mode">
         <i :class="isDark ? 'fas fa-sun' : 'fas fa-moon'"></i>

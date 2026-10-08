@@ -11,6 +11,7 @@
     --border: rgba(0, 0, 0, 0.1);
     --glass-bg: rgba(255, 255, 255, 0.7);
     --glass-border: rgba(0, 0, 0, 0.05);
+    --mobile-nav-bg: rgba(248, 250, 252, 0.95);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -26,6 +27,7 @@
     --border: rgba(255, 255, 255, 0.08);
     --glass-bg: rgba(10, 10, 32, 0.4);
     --glass-border: rgba(255, 255, 255, 0.05);
+    --mobile-nav-bg: rgba(3, 0, 20, 0.95);
 }
 
 /* Custom Scrollbar */
@@ -212,6 +214,8 @@ nav ul div a:hover::after {
     width: 30px;
     height: 21px;
     cursor: pointer;
+    position: relative;
+    z-index: 100;
 }
 
 .hamburger span {
@@ -684,6 +688,12 @@ nav ul div a:hover::after {
     margin: 3rem 0;
 }
 
+.contact-email i, .contact-phone i {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
 .contact-email a, .contact-phone a {
     font-size: 2rem;
     font-weight: 700;
@@ -789,18 +799,22 @@ nav ul div a:hover::after {
 }
 
 @media (max-width: 768px) {
-    nav {
+    .desktop-nav {
         display: none;
     }
 
-    nav.active {
+    .mobile-nav {
+        display: none;
+    }
+
+    .mobile-nav.active {
         position: fixed;
         display: flex;
         top: 0;
-        right: 0;
-        width: 100%;
+        left: 0;
+        width: 100vw;
         height: 100vh;
-        background: rgba(3, 0, 20, 0.95);
+        background: var(--mobile-nav-bg);
         backdrop-filter: blur(20px);
         flex-direction: column;
         justify-content: center;
@@ -808,13 +822,15 @@ nav ul div a:hover::after {
         z-index: 99;
     }
 
-    nav ul {
+    .mobile-nav ul {
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+        padding: 0;
     }
 
-    nav ul div a {
+    .mobile-nav ul div a {
         font-size: 1.5rem;
     }
 
@@ -862,8 +878,23 @@ nav ul div a:hover::after {
     }
 
     .about-image.dual-images {
-        height: 250px;
-        max-width: 320px;
+        height: auto;
+        aspect-ratio: 1 / 1.1;
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto 3rem auto;
+    }
+    
+    .about-image.dual-images .img-1 {
+        width: 75%;
+        top: 0;
+        left: 0;
+    }
+
+    .about-image.dual-images .img-2 {
+        width: 75%;
+        bottom: 0;
+        right: 0;
     }
 
     .section-header h2 {
