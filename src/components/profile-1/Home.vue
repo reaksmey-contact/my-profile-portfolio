@@ -24,7 +24,7 @@
     </div>
 
     <div data-aos="zoom-in" data-aos-duration="1500" class="hero-image floating-anim">
-        <img src="/img/my-img/me-3.JPG" alt="Profile picture">
+        <img src="/img/my-img/me.JPG" alt="Profile picture picture">
     </div>
   </section>
 </template>
