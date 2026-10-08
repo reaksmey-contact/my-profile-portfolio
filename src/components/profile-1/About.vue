@@ -4,8 +4,9 @@
       <h2>Curious about me? Here you have it:</h2>
     </div>
     <div class="about-content">
-      <div data-aos="flip-left" class="about-image">
-        <img class="img-shadow-left-bottom" src="/img/my-img/me-2.jpg" alt="Casual photo">
+      <div data-aos="flip-left" class="about-image dual-images">
+        <img src="/img/my-img/me-4.JPG" alt="Casual photo 1" class="img-1">
+        <img src="/img/my-img/me-5.JPG" alt="Casual photo 2" class="img-2">
       </div>
       <div data-aos="flip-right" class="about-text">
         <p>I am a Full Stack Developer with over 4 years of experience building reliable web applications. I started learning about websites out of curiosity, and it grew into a passion for coding.

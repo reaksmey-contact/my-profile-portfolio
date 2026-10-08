@@ -29,7 +29,7 @@
         :key="skill_group.category"
         class="col-12 col-md-6 mb-4"
       >
-        <div class="card bg-black-skill text-white h-100 p-3">
+        <div class="card bg-black-skill h-100 p-3">
           <div class="section-header mb-3">
             <h3>{{ skill_group.category }}</h3>
           </div>
