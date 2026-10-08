@@ -5,8 +5,8 @@
     </div>
     <div class="about-content">
       <div data-aos="flip-left" class="about-image dual-images">
-        <img src="/public/img/my-img/me-4.jpg" alt="Casual photo 1" class="img-1">
-        <img src="/public/img/my-img/me-5.jpg" alt="Casual photo 2" class="img-2">
+        <img src="/img/my-img/me-4.jpg" alt="Casual photo 1" class="img-1">
+        <img src="/img/my-img/me-5.jpg" alt="Casual photo 2" class="img-2">
       </div>
       <div data-aos="flip-right" class="about-text">
         <p>
