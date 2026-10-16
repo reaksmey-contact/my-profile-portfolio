@@ -1,4 +1,5 @@
 <template>
+  <MoonBackground />
   <div id="app">
     <router-view />
   </div>
@@ -15,6 +16,7 @@
 
 <script lang="ts" setup>
 import { onMounted, ref, onUnmounted } from 'vue'
+import MoonBackground from '@/components/profile-1/MoonBackground.vue'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

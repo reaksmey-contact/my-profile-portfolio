@@ -927,3 +927,26 @@ nav ul div a:hover::after {
         font-size: 1.3rem;
     }
 }
+
+/* Print Background and Moon Shine support */
+@media print {
+    *,
+    *::before,
+    *::after {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    [data-theme="dark"] body {
+        background-color: #030014 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .theme-toggle,
+    .hamburger,
+    .custom-scrolltop {
+        display: none !important;
+    }
+}
