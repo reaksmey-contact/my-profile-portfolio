@@ -70,15 +70,32 @@ const codeClansTask =
 
 const experiences = [
   {
+    company: 'Durian Inn Co,Ltd',
+    title: 'Senior Software Developer',
+    duration: 'March 2026 - Present',
+    logo: '/img/project-logo/durainx-logo.png',
+    website: '#',
+    tasks: [
+      'Architected 10+ core microservices (Files, Sms/Email, Identity, Otp, Merchant, Rider, Wallet, Orders, Express, Delivery Dispatch, Call, Notification, Rating) using .NET 8, Clean Architecture, and CQRS, establishing clear domain boundaries and high system availability.',
+      'Implemented event-driven synchronization across services using Apache Kafka and Debezium CDC, eliminating data mismatch and dual-write issues.',
+      'Engineered real-time driver tracking and geofencing by combining Redis GeoSets, PostgreSQL/PostGIS, and SignalR WebSockets for live dispatch updates.',
+      'Built automated batch workflows with Apache Airflow to handle scheduled ETL, data synchronization across microservices, and system maintenance.',
+      'Integrated ERPNext REST APIs to automate transaction settlement and ledger reconciliation, removing manual intervention and accounting mismatches.',
+      'Modular Admin Portals: Involved in building modular admin portals (Sales, Merchant, AR, Operations) using Vue 3, TypeScript, PrimeVue, and Tailwind CSS for streamlined management and auditing.',
+      'Telegram Ecosystem Integration: Involved in building automated Telegram Bot alerts for real-time logs and developing Telegram Mini Apps for mobile user and merchant accessibility.',
+    ],
+  },
+  {
     company: 'Aibodia',
     title: 'Web developer',
-    duration: 'July 2025 - Present',
+    duration: 'July 2025 - Feb 2026',
     logo: 'https://media.licdn.com/dms/image/v2/D560BAQFPv00NMERH-g/company-logo_200_200/company-logo_200_200/0/1726214406081/meta_11_logo?e=2147483647&v=beta&t=dVXeHuMS6y7lNla2WFECdzbJZ4qEmGbwUkjDDXdCRKM',
     website: 'https://aibodia.com',
-    tasks:[
-      'Full-Stack Development - Delivered a messaging and live streaming platform as the core product; built a full-stack management system using Nuxt.js for data, user administration, and role management.\n',
-      'Backend & Real-Time backend services with NestJS and Golang; designed and documented RESTful APIs.\n',
-      'Streaming & Communication- Integrated Agora for low-latency live streaming, GetStream for feature-rich real-time chat, and Socket.IO for bidirectional event-driven communication across high-concurrency sessions.']
+    tasks: [
+      'Full-Stack Development - Delivered a messaging and live streaming platform as the core product; built a full-stack management system using Nuxt.js for data, user administration, and role management.',
+      'Backend & Real-Time backend services with NestJS and Golang; designed and documented RESTful APIs.',
+      'Streaming & Communication - Integrated Agora for low-latency live streaming, GetStream for feature-rich real-time chat, and Socket.IO for bidirectional event-driven communication across high-concurrency sessions.',
+    ],
   },
   {
     company: 'Codeclans',
@@ -86,7 +103,7 @@ const experiences = [
     duration: 'Jan 2023 - Jun 2025',
     logo: '/img/project-logo/codeclans.png',
     website: 'https://codeclans.asia/',
-    tasks: codeClansTask.split('-'),
+    tasks: codeClansTask.split('-').filter((t) => t.trim().length > 0),
   },
   {
     company: 'Eazy Partner Solution Co.,Ltd',
@@ -106,6 +123,10 @@ const experiences = [
   },
 ]
 const ExpLogo = ref([
+  {
+    tite: 'Durian Inn',
+    logo: '/img/project-logo/durainx-logo.png',
+  },
   {
     tite: 'Aia',
     logo: '/img/project-logo/aia.png',

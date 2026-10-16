@@ -31,6 +31,36 @@ import Experiences from '@/components/profile-1/Experiences.vue'
 
 const projects = [
   {
+    title: 'DurianX Ecosystem (Consumer, Driver & Merchant Apps)',
+    image: '/img/project-logo/durainx/durain-consumer-app.jpg',
+    description:
+      'Comprehensive on-demand multi-service platform powering the <b>Consumer App</b>, <b>Driver App</b>, and <b>Merchant App</b>. <i>(Responsible for Backend Architecture & Modular Admin Portals, not mobile development)</i>.<br><br>' +
+      '• Architected core microservices (.NET 8, Clean Architecture, CQRS) for Orders, Express, Delivery Dispatch, Rider, Merchant, Wallet, Identity, OTP, Files, Call, Notification, and Rating.<br>' +
+      '• Engineered real-time driver tracking, geofencing, and dispatch using Redis GeoSets, PostgreSQL/PostGIS, and SignalR WebSockets.<br>' +
+      '• Implemented event-driven synchronization across microservices with Apache Kafka and Debezium CDC to prevent dual-write issues.<br>' +
+      '• Built automated batch workflows and data synchronization using Apache Airflow, and integrated ERPNext REST APIs for ledger reconciliation.<br>' +
+      '• Built modular admin portals (Sales, Merchant, AR, Operations) using Vue 3, TypeScript, PrimeVue, and Tailwind CSS.',
+    tags: [
+      '.NET 8',
+      'Clean Architecture',
+      'CQRS',
+      'Apache Kafka',
+      'Debezium CDC',
+      'PostgreSQL / PostGIS',
+      'Redis',
+      'SignalR',
+      'Apache Airflow',
+      'ERPNext API',
+      'Vue 3',
+      'TypeScript',
+      'PrimeVue',
+      'Tailwind CSS',
+    ],
+    liveLink: '#',
+    codeLink: '#',
+    isNew: true,
+  },
+  {
     title: 'Morea',
     image: '/img/project-logo/morea.png',
     description: 'MOREA Web Portal is a centralized sales and operations management system designed to track and control activities across multiple depots and the entire corporation. It enables real-time monitoring of salesman visits, stock levels, purchases, and sales. The system includes features for managing users, controlling salesman operations, recording store visits, and analyzing performance data. It streamlines sales workflows, improves stock tracking, and ensures efficient coordination between sales teams and depot operations.',

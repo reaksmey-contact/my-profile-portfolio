@@ -123,64 +123,73 @@ const skills = [
 ]
 const groupedSkills = [
   {
-    category: 'Languages',
+    category: 'Programming Languages',
     items: [
       {
-        name: 'Html',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+        name: 'C#',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
       },
       {
-        name: 'CSS',
-        icon: ' https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
-      },
-      {
-        name: 'JavaScript',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+        name: 'Go',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
       },
       {
         name: 'TypeScript',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
       },
       {
+        name: 'JavaScript',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+      },
+      {
         name: 'PHP',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
       },
       {
-        name: 'C#',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
-      },
-      {
-        name: 'Golang',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg',
+        name: 'SQL',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg',
       },
     ],
   },
   {
-    category: 'Frameworks / Libraries',
+    category: 'Frontend Technologies',
     items: [
-      {
-        name: 'Tailwindcss',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg',
-      },
-      {
-        name: 'Node.js',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-      },
       {
         name: 'Vue.js',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg',
       },
       {
-        name: 'NestJS',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-plain.svg',
+        name: 'Nuxt.js',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg',
+      },
+      {
+        name: 'Tailwind CSS',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+      },
+      {
+        name: 'Alpine.js',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/alpinejs/alpinejs-original.svg',
       },
       {
         name: 'Bootstrap',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
       },
       {
-        name: 'jQuery',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg',
+        name: 'HTML5',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+      },
+      {
+        name: 'CSS3',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
+      },
+    ],
+  },
+  {
+    category: 'Backend Technologies',
+    items: [
+      {
+        name: 'ASP.NET',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg',
       },
       {
         name: 'Laravel',
@@ -191,20 +200,45 @@ const groupedSkills = [
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original-wordmark.svg',
       },
       {
-        name: 'Alpine.js',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/alpinejs/alpinejs-original.svg',
+        name: 'NestJS',
+        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTML4NC6c6pDdfmXbW8ufyroqby7mexWOwbpKzsIvXxptJBLaq7VW4GK4d&s=10',
       },
       {
-        name: '.NET',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg',
-      },
-      {
-        name: 'Tailwind CSS',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg',
+        name: 'Golang',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
       },
       {
         name: 'Socket.IO',
-        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHzBsoRkOcXuYBYEz7AT6E0J_84Qe3u3hFA&s',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg',
+      },
+      {
+        name: 'gRPC',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grpc/grpc-original.svg',
+      },
+      {
+        name: 'Swagger',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg',
+      },
+      {
+        name: 'Bull/Queue',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
+      },
+    ],
+  },
+  {
+    category: 'ORM & Data Access',
+    items: [
+      {
+        name: 'EF Core',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg',
+      },
+      {
+        name: 'TypeORM',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typeorm/typeorm-original.svg',
+      },
+      {
+        name: 'Sequelize',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg',
       },
     ],
   },
@@ -212,36 +246,54 @@ const groupedSkills = [
     category: 'Databases',
     items: [
       {
+        name: 'MySQL',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+      },
+      {
         name: 'PostgreSQL',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
       },
       {
-        name: 'MySQL',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+        name: 'SQL Server',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg',
       },
+      {
+        name: 'Mongo',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+      },
+    ],
+  },
+  {
+    category: 'Caching, Streaming & CDC',
+    items: [
       {
         name: 'Redis',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
       },
       {
-        name: 'Mongo',
-        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEN6fDm89O6g-B0h3eEPmVlxQyhlU1cNS7tQ&s',
+        name: 'Apache Kafka',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg',
+      },
+      {
+        name: 'Debezium',
+        icon: 'https://avatars.githubusercontent.com/u/11964329?s=280&v=4',
       },
     ],
   },
-  // {
-  //   category: 'APIs / Query Languages',
-  //   items: [
-  //     { name: 'REST', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' }, // commonly used in REST
-  //     { name: 'Axios', icon: 'https://avatars.githubusercontent.com/u/32372333?s=200&v=4' },
-  //   ],
-  // },
   {
-    category: 'DevOps / Tools',
+    category: 'DevOps & Tools',
     items: [
       {
         name: 'Docker',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      },
+      {
+        name: 'Docker Compose',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      },
+      {
+        name: 'Nginx',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg',
       },
       {
         name: 'Git',
@@ -257,34 +309,21 @@ const groupedSkills = [
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
       },
       {
-        name: 'Vite',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg',
+        name: 'JetBrains Rider',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rider/rider-original.svg',
       },
       {
-        name: 'Webpack',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg',
-      },
-      {
-        name: 'NPM',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg',
-      },
-      {
-        name: 'Yarn',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg',
-      },
-      {
-        name: 'Visual Studio Code',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
-      },
-      {
-        name: 'Figma',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+        name: 'DataGrip',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg',
       },
       {
         name: 'Postman',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg',
       },
-      // { name: 'Linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },
+        {
+        name: 'Bruno',
+        icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg_Lzbnqk7uA-56-ELFe9rBe7XfOKXi9FwIWM1Dp-m8Q&s=10'
+      },
     ],
   },
 ]

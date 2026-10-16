@@ -4,9 +4,9 @@
       <h2>Curious about me? Here you have it:</h2>
     </div>
     <div class="about-content">
-      <div data-aos="flip-left" class="about-image dual-images">
+      <div data-aos="flip-left" class="about-image ">
         <img src="/img/my-img/me-4.JPG" alt="Casual photo 1" class="img-1">
-        <img src="/img/my-img/me-5.JPG" alt="Casual photo 2" class="img-2">
+        <!-- <img src="/img/my-img/me-5.JPG" alt="Casual photo 2" class="img-2"> -->
       </div>
       <div data-aos="flip-right" class="about-text">
         <p>
